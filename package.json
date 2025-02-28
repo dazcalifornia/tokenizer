@@ -1,13 +1,20 @@
 {
-  "name": "node-word-tokenizer",
+  "name": "spatular-nlp",
   "version": "1.2.0",
-  "description": "A flexible multi-language word tokenization library for Node.js with universal regex support",
-  "main": "tokenizer.js",
+  "description": "A flexible multilingual word tokenization library for Node.js with universal regex support",
+  "main": "src/tokenizer.js",
+  "directories": {
+    "src": "src",
+    "test": "test",
+    "example": "examples"
+  },
   "scripts": {
-    "test": "node example.js",
-    "start": "node example.js",
-    "thai": "node thai-example.js",
-    "universal": "node universal-example.js"
+    "test": "node test/test-runner.js",
+    "example:basic": "node examples/basic.js",
+    "example:multi": "node examples/multilingual.js",
+    "example:analysis": "node examples/analysis.js",
+    "benchmark:thai": "node test/thai-benchmark.js",
+    "start": "node examples/basic.js"
   },
   "keywords": [
     "nlp",
@@ -24,9 +31,30 @@
     "regex",
     "cross-language"
   ],
-  "author": "Your Name",
+  "author": "burblanks",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazcalifornia/tokenizer"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {},
+  "files": [
+    "src/",
+    "data/",
+    "examples/",
+    "LICENSE",
+    "README.md"
+  ]
 }

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "user": "traveler123",
+    "text": "Just landed in Bangkok! กรุงเทพฯสวยมาก 😍 #Thailand #vacation",
+    "language": "en-th",
+    "timestamp": "2025-02-24T12:30:00Z"
+  },
+  {
+    "id": 2,
+    "user": "techguru",
+    "text": "AI 人工知能は現代のテクノロジーの中で最も重要な分野の一つです。#AI #MachineLearning",
+    "language": "ja",
+    "timestamp": "2025-02-24T14:45:00Z"
+  },
+  {
+    "id": 3,
+    "user": "foodlover",
+    "text": "Delicious tom yum soup for lunch today! ต้มยำกุ้งอร่อยมากๆ 🍜 #ThaiFood",
+    "language": "en-th",
+    "timestamp": "2025-02-24T13:15:00Z"
+  },
+  {
+    "id": 4,
+    "user": "newsreader",
+    "text": "Breaking: ประธานาธิบดีสหรัฐฯเดินทางเยือนประเทศไทยวันพรุ่งนี้ #News #Politics",
+    "language": "th",
+    "timestamp": "2025-02-24T16:20:00Z"
+  },
+  {
+    "id": 5,
+    "user": "developer",
+    "text": "دعم اللغة العربية مهم جدا في تطبيقات معالجة اللغات الطبيعية #NLP #Arabic",
+    "language": "ar",
+    "timestamp": "2025-02-24T18:10:00Z"
+  },
+  {
+    "id": 6,
+    "user": "langlearner",
+    "text": "Learning Korean is fun! 한국어를 배우는 것은 재미있어요! #LanguageLearning",
+    "language": "en-ko",
+    "timestamp": "2025-02-24T19:05:00Z"
+  },
+  {
+    "id": 7,
+    "user": "sportsfan",
+    "text": "เชียร์ทีมชาติไทยสู้ๆ! Going to the match tonight. #Football #Thailand",
+    "language": "th-en",
+    "timestamp": "2025-02-24T20:30:00Z"
+  },
+  {
+    "id": 8,
+    "user": "codetester",
+    "text": "Testing my new regex: \\p{L}+(?:\\p{M}*\\p{L}+)*|\\p{N}+ for multilingual text processing",
+    "language": "en",
+    "timestamp": "2025-02-24T21:15:00Z"
+  }
+]
