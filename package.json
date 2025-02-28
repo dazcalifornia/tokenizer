@@ -1,0 +1,32 @@
+{
+  "name": "node-word-tokenizer",
+  "version": "1.2.0",
+  "description": "A flexible multi-language word tokenization library for Node.js with universal regex support",
+  "main": "tokenizer.js",
+  "scripts": {
+    "test": "node example.js",
+    "start": "node example.js",
+    "thai": "node thai-example.js",
+    "universal": "node universal-example.js"
+  },
+  "keywords": [
+    "nlp",
+    "tokenization",
+    "tokenizer",
+    "natural-language-processing",
+    "text-processing",
+    "stemming",
+    "stopwords",
+    "thai",
+    "multilingual",
+    "word-segmentation",
+    "unicode",
+    "regex",
+    "cross-language"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
